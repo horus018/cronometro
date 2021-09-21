@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(90deg, #568d17, #ff1201);
+}
+
+.container {
+    text-align: center;
+    color: rgb(28, 230, 28);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 1em 1em;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 5px solid rgb(245, 245, 30);
+    border-radius: 10px;
+    margin: 100px 400px 0px 400px;
+}
+
+.container h1 {
+    margin-bottom: 50px
+}
+
+select {
+    width: 10%;
+    height: 20px;
+}
+
+button {
+    color: white;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    margin-top: 30px;
+    min-width: 30%
+}
+
+button:hover {
+    background-color: rgb(155, 66, 50);
+}
